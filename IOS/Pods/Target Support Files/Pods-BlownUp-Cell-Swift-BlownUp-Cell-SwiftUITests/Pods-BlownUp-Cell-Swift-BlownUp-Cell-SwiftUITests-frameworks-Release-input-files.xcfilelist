@@ -1,0 +1,22 @@
+${PODS_ROOT}/Target Support Files/Pods-BlownUp-Cell-Swift-BlownUp-Cell-SwiftUITests/Pods-BlownUp-Cell-Swift-BlownUp-Cell-SwiftUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AlamofireMapper/AlamofireMapper.framework
+${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework
+${BUILT_PRODUCTS_DIR}/DatePicker/DatePicker.framework
+${BUILT_PRODUCTS_DIR}/Extended/Extended.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/KRActivityIndicatorView/KRActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/KRProgressHUD/KRProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/KWVerificationCodeView/KWVerificationCodeView.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/LSDialogViewController/LSDialogViewController.framework
+${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework
+${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework
+${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework
+${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework
+${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework
+${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework
+${BUILT_PRODUCTS_DIR}/PDFReader/PDFReader.framework
+${BUILT_PRODUCTS_DIR}/SDDownloadManager/SDDownloadManager.framework
+${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework
+${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework

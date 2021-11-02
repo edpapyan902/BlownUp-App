@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#71b876</color>
+    <color name="colorPrimaryVariant">#3D6840</color>
+    <color name="colorBlack">#FF000000</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorBlue">#005e7c</color>
+    <color name="colorBlueDark">#02465C</color>
+    <color name="colorGrey">#C6C4C4</color>
+    <color name="colorGoogle">#E3411F</color>
+    <color name="colorLightGrey">#F3EFEF</color>
+    <color name="colorRed">#DD2529</color>
+    <color name="colorOpen">#24b47e</color>
+    <color name="colorDraft">#5c61c3</color>
+    <color name="colorDelete">#e25950</color>
+    <color name="colorPaid">#3397d3</color>
+    <color name="colorUncollectible">#e29f48</color>
+    <color name="colorVoid">#b76ac4</color>
+    <color name="colorHeavyGrey">#797979</color>
+    <color name="colorCalendarBack">#08000000</color>
+    <color name="colorIncoming">#5c6f85</color>
+    <color name="colorIncomingLight">#4D969CA1</color>
+</resources>

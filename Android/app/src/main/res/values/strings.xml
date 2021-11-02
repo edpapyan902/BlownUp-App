@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">BlownUp</string>
+    <!-- network status -->
+    <string name="net_status_error">Internet connection error!</string>
+    <!-- bottom navigation bar titles -->
+    <string name="title_schedule">Schedule</string>
+    <string name="title_contact">Contact</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_help">Help</string>
+    <string name="title_account">Account</string>
+    <!-- bottom navigation bar titles -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="new_password">New Password</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="my_cell_phone_number">My Cell Phone Number</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgetPassword">Forgot Password</string>
+    <string name="login_description">The First Fully Automated Way to Ring Your Own Phone</string>
+    <string name="login">Login</string>
+    <string name="send_email">Send Email</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="signUp">Sign Up</string>
+    <string name="not_yet_account">Not account yet?</string>
+    <string name="already_account">Already have account?</string>
+    <string name="valid_email">Please input valid email.</string>
+    <string name="valid_password">Please input password.</string>
+    <string name="valid_password_length">Password should be at least 6 characters.</string>
+    <string name="valid_con_password">Please input correct confirm password.</string>
+    <string name="term">I agree with the terms &amp; conditions</string>
+    <string name="add_a_contact">ADD A CONTACT</string>
+    <string name="update_a_contact">UPDATE A CONTACT</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="contact_number">Number to Call</string>
+    <string name="save_contact">SAVE CONTACT</string>
+    <string name="remove_contact">REMOVE CONTACT</string>
+    <string name="update_contact">UPDATE CONTACT</string>
+    <string name="select_image">Select Image From Gallery</string>
+    <string name="select_music">Select Music From Gallery</string>
+    <string name="contacts">CONTACTS</string>
+    <string name="my_contacts">MY CONTACTS</string>
+    <string name="my_account">MY ACCOUNT</string>
+    <string name="update_password">Update Password</string>
+    <string name="my_billing">MY BILLING</string>
+    <string name="update_billing">UPDATE BILLING</string>
+    <string name="resume">Resume</string>
+    <string name="pay">Pay 9.99$</string>
+    <string name="update_info">UPDATE INFORMATION</string>
+    <string name="logout">LOGOUT</string>
+    <string name="invalid_card">Please input valid card information.</string>
+    <string name="settings">SETTINGS</string>
+    <string name="cancel_subscription">CANCEL SUBSCRIPTION</string>
+    <string name="resume_subscription">RESUME SUBSCRIPTION</string>
+    <string name="subscription_renew_on">Your Subscription Renews On:</string>
+    <string name="subscription_ended">Your Subscription Ended On:</string>
+    <string name="billing_history">BILLING HISTORY</string>
+    <string name="go_home">GO HOME</string>
+    <string name="thank_subscribe">Thank you for your paying our app!</string>
+    <string name="scheduled_calls">SCHEDULED CALLS</string>
+    <string name="schedule_a_call">SCHEDULED A CALL</string>
+    <string name="call_number">Number to have a call from</string>
+    <string name="my_call_schedule">MY CALL SCHEDULE</string>
+    <string name="recent_calls_scheduled">RECENT CALLS SCHEDULED</string>
+    <string name="once">Once</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="schedule">SCHEDULE</string>
+    <string name="call">CALL</string>
+    <string name="cancel">CANCEL</string>
+    <string name="select">SELECT</string>
+    <string name="valid_schedule_date">Please select valid upcoming date (after 5+ minutes from now) to schedule.</string>
+    <!--  currency  -->
+    <string name="currency_usd">$</string>
+    <string name="currency_euro">€</string>
+    <string name="currency_pound">£</string>
+    <!-- notification default channel setting -->
+    <string name="default_notification_channel_id">BlownUp_FCM_CHANNEL_ID</string>
+    <string name="default_notification_channel_name">BlownUp_FCM_CHANNEL_NAME</string>
+    <string name="default_notification_channel_description">BlownUp_FCM_CHANNEL_DESCRIPTION</string>
+</resources>

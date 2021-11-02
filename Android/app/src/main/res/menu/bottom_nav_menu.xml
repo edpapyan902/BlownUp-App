@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_schedule_list"
+        android:icon="@drawable/ic_calendar_on"
+        android:title="@string/title_schedule" />
+
+    <item
+        android:id="@+id/navigation_contact_list"
+        android:icon="@drawable/ic_address_book_on"
+        android:title="@string/title_contact" />
+
+    <item
+        android:id="@+id/navigation_help"
+        android:icon="@drawable/ic_help_on"
+        android:title="@string/title_help" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_account_on"
+        android:title="@string/title_account" />
+
+</menu>

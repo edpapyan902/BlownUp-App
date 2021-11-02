@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="80"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="147"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/logo_green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="700"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="A message with verification code has been sent to your email. Enter the code to continue."
+                android:textAlignment="center"
+                android:textColor="@color/colorGrey"
+                android:textSize="18sp" />
+
+            <com.chaos.view.PinView
+                android:id="@+id/verifyCodeView"
+                style="@style/PinWidget.PinView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:cursorVisible="true"
+                android:inputType="number"
+                android:itemBackground="@null"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:cursorColor="@color/colorPrimary"
+                app:cursorWidth="2dp"
+                app:hideLineWhenFilled="false"
+                app:itemCount="6"
+                app:itemHeight="55dp"
+                app:itemRadius="8dp"
+                app:itemSpacing="0dp"
+                app:itemWidth="55dp"
+                app:lineColor="@color/colorPrimary"
+                app:lineWidth="2dp"
+                app:viewType="rectangle" />
+
+            <Button
+                android:id="@+id/btnVerify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="@string/verify_code"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Don't get an email?"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:id="@+id/resendView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        app:srcCompat="@drawable/ic_resend" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Send a new code"
+                        android:textColor="@color/colorBlue" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/progressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A6FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:id="@+id/loader"
+            style="@style/SpinKitView.Large.Circle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            app:SpinKit_Color="@color/colorPrimary" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+framework module Pods_BlownUp_Cell_Swift {
+  umbrella header "Pods-BlownUp-Cell-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "291313028612",
+    "project_id": "blownup-4b71a",
+    "storage_bucket": "blownup-4b71a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291313028612:android:fbacbca53dd7f28e2d6f51",
+        "android_client_info": {
+          "package_name": "com.BlownUp.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291313028612-u5tsm2v5pa7msonorcea3jciecsjbi0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.BlownUp.app",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "291313028612-dqe5qlof7b1bltauubvl54qq6n45sg97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxau5VSXMFa_Sgw2fgXFLcDkw3hyQgc3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291313028612-dqe5qlof7b1bltauubvl54qq6n45sg97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.BlownUp.app">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/BlownUpAppTheme">
+
+        <activity
+            android:name=".call.IncomingCallActivity"
+            android:screenOrientation="portrait"
+            android:showOnLockScreen="true"
+            android:theme="@style/IncomingTheme" />
+        <activity
+            android:name=".screen.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PrimaryTheme" />
+        <activity
+            android:name=".screen.activity.RecentCallActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BlueTheme" />
+        <activity
+            android:name=".screen.activity.SuccessActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PrimaryTheme" />
+        <activity
+            android:name=".screen.startup.CheckOutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PrimaryTheme" />
+        <activity
+            android:name=".screen.startup.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PrimaryTheme" />
+        <activity
+            android:name=".screen.startup.SignUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PrimaryTheme" />
+        <activity
+            android:name=".screen.startup.VerifyCodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PrimaryTheme" />
+        <activity
+            android:name=".screen.startup.ForgetPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PrimaryTheme" />
+        <activity
+            android:name=".screen.startup.ResetPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PrimaryTheme" />
+        <activity
+            android:name=".screen.startup.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PrimaryTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".receiver.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name=".receiver.MyBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name=".receiver.DeviceBootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.REBOOT" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".service.MyFCMService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_call_notification" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorBlue" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_name"
+            android:value="@string/default_notification_channel_name" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_description"
+            android:value="@string/default_notification_channel_description" />
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+    </application>
+
+</manifest>

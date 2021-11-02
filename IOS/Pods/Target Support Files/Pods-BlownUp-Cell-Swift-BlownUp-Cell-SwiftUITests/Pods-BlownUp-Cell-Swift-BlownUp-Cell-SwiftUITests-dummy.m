@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_BlownUp_Cell_Swift_BlownUp_Cell_SwiftUITests : NSObject
+@end
+@implementation PodsDummy_Pods_BlownUp_Cell_Swift_BlownUp_Cell_SwiftUITests
+@end
